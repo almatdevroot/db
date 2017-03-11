@@ -35,13 +35,13 @@ INSERT INTO `establishment` (`id`, `name`, `description`, `address`, `typeId`, `
 	(20, 'TOO "TOO Name"', 'lorem too ipsum dolor emit ogjap fpajfa', 'Streett 23', 1, 'hotel', 5, 1, 'qaraghandy', 4, 4, NULL, NULL);
 /*!40000 ALTER TABLE `establishment` ENABLE KEYS */;
 
--- Dumping data for table api.reviews: ~2 rows (approximately)
+-- Dumping data for table api.reviews: ~4 rows (approximately)
 /*!40000 ALTER TABLE `reviews` DISABLE KEYS */;
 INSERT INTO `reviews` (`id`, `name`, `userId`, `text`, `ratingLvl`, `date`, `companyId`) VALUES
-	(1, 'User', 1, '))', 4.7, '2017.03.11', 2),
 	(2, 'User', 1, 'Barlyghy zhaqsy', 4.7, '2017.03.11', 2),
 	(3, 'User', 1, 'Barlyghy zhaqsy', 4.7, '2017.03.11', 2),
-	(4, 'User', 1, '))!', 4.7, '2017.03.11', 2);
+	(4, 'User', 1, '))!', 4.7, '2017.03.11', 2),
+	(7, 'UserName', 2, '))!sdfsdfs', 5, '2017.03.11', 2);
 /*!40000 ALTER TABLE `reviews` ENABLE KEYS */;
 
 -- Dumping data for table api.towns: ~4 rows (approximately)
